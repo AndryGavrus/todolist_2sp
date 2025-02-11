@@ -1,11 +1,16 @@
-.app {
+/* .app {
   padding: 30px;
   display: flex;
 }
 
 .app > div {
   margin-right: 50px;
-}
+} */
+
+.app {  
+  display: flex;  
+  flex-direction: column;  
+  width: 100vw;}
 
 .error {
   border: red 1px solid;
@@ -16,7 +21,7 @@
 }
 
 .active-filter {
-  background-color: lightgreen;
+  background-color: #90ee90;
 }
 
 .is-done {
